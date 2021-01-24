@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto',sans-serif;
+    }
+    header{
+    background-image:url('header tof.jpg');
+    background-repeat:repeat;
+    background-size:inherit;
+    background-position:center;
+    height:150px;
+    position:relative;
+    }
+    .animation1 {
+    color:cyan;
+    animation: text 3s infinite;
+    text-align: center;
+    font-size: 40px;
+    }
+    .animation2 {
+        color:rgb(255, 0, 0);
+       
+        }
+    @keyframes text{
+    0%{
+        color: rgb(236, 41, 41);
+    } 
+    30%{
+        letter-spacing: 20px;
+    }
+    85%{
+        letter-spacing: 10px;
+    }
+    }
+    .overlay{
+    position:absolute;
+    z-index:1;
+    top:0;
+    left:0;
+    height:100%;
+    right:0;
+    bottom:0;
+    padding:0 !important;
+    margin:0 !important;
+    background-color:rgba(10,10,10,0.3);
+    }
+    nav{
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    
+    z-index:2;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding:50px 60px 0 60px ;
+    
+    }
+    nav li {
+    list-style:none;
+    display:inline-block;
+    padding-right:10px;
+    padding-left:10px;
+    }
+    nav li span {
+    padding-left:5px;
+    }
+    li a {
+    padding:5px;
+    background-color:#fff;
+    text-decoration:none;
+    }
+    .card ion-icon{
+    vertical-align:bottom;
+    font-size:20px;
+    padding-right:5px;
+    }
+    .card a {
+    background-color:blue;
+    color:#fff;
+    cursor:pointer;
+    text-decoration:none;
+    
+    }
+    .container {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items: baseline;
+    margin-top:50px;
+    padding-bottom:100px;
+    
+    }
+    .image{
+        
+    margin-right:20px;
+    margin-left:20px;
+    margin-top:0px;
+    position:relative;
+    overflow:hidden;
+    
+    }
+    .tiw {
+  width:250px;
+  height: 300px;
+    }
+    .tiw1 {
+        width:90px;
+        height: 120px;
+          }
+
+    div>h3{
+        text-align: center;
+    }
+    .add-card{
+    position:absolute;
+    width:100%;
+    background-color:darkgrey;
+    transition: all 0.3s ease-in-out;
+    opacity:1;
+    cursor:pointer;
+    text-align: center;
+    
+    }
+    .image:hover .card1,
+    .image:hover .card2,
+    .image:hover .card3,
+    .image:hover .card4
+    {
+    bottom:50px;
+    opacity:1;
+    padding:10px;
+    text-decoration:none;
+    }
+    /* cards page CSS*/
+    .products_container{
+    width: 900px;
+    justify-content: space-around;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:50px;
+    padding-bottom:100px;
+    
+    }
+    .products_container ion-icon {
+    font-size: 25px;
+    color: blue;
+    margin-right: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    }
+    .products_header{
+    width: 100%;
+    max-width: 650%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    }
+    .product_title{
+        width: 45%;
+        text-align: center;
+        
+    }
+    .price{
+        width: 90px;
+        display: flex;
+        align-items: center;
+  
+    }
+    .quantity{
+        width: 110px;
+        display: flex;
+        align-items: center;
+      
+    }
+    .total{
+        width: 10px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .products{
+        width: 590px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:10px 0;
+        margin-left: -200px;
+        border-bottom: 4px solid lightgrey;
+        padding-right: 20px;
+    }
+    .align{
+        display: flex;
+        align-items:center ;
+    
+    }
+    .align > span{
+        padding-right: 10px;
+    }
+    .TotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    }
+    .TotalTitle{
+    width: 150px;
+    }
+   .heart{
+    color:grey;
+    font-size: 30px;
+    }
+    .iconPosition{
+        text-align: center;
+        
+    }
+    .heart-red{
+        color:red;
+    }
+   
+   
